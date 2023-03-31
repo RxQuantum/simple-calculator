@@ -4,12 +4,16 @@ function display(value){
 }
 
 function solve(){
-    if(equation === '') return ''
+
         let equation  = document.getElementById("result").value;
+
+        if(equation  === '') return ''
         let solution = eval(equation);
-        document.getElementById("result2").value = solution;  
-        
-    }
+        document.getElementById("result2").value = solution;  
+     
+    }
+
+    
 
 function clearScreen(){
     document.getElementById("result2").value = "";
