@@ -4,6 +4,7 @@ function display(value){
 }
 
 function solve(){
+    if(equantion === '') return ''
         let equation  = document.getElementById("result").value;
         let solution = eval(equation);
         document.getElementById("result2").value = solution;  
